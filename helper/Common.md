@@ -131,6 +131,11 @@ sudo adduser userName sudo
 sudo usermod -a -G grouName userName
 ```
 
++ donner les droits d'ecriture aux utilisateurs du groupe
+```bash
+sudo chmod -R g+w /opt/tomcat/webapps
+```
+
 ### Permissions
 
 + changer les droits d'un dossier de facon récursive
