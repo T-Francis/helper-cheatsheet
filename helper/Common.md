@@ -131,9 +131,9 @@ sudo adduser userName sudo
 sudo usermod -a -G grouName userName
 ```
 
-+ donner les droits d'ecriture aux utilisateurs du groupe
++ donner les droits d'ecriture aux groupe
 ```bash
-sudo chmod -R g+w /opt/tomcat/webapps
+sudo chmod -R g+w /home/userName/
 ```
 
 ### Permissions

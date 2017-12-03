@@ -46,6 +46,9 @@ Faire de Tomcat le propriétaire des dossier approprié
  sudo chmod -R g+r conf
  sudo chmod g+x conf
  sudo chown -R tomcat webapps/ work/ temp/ logs/
+
+# give write permissions for the group on webapps
+# sudo chmod -R g+w /opt/tomcat/webapps
 ```
 ***
 
