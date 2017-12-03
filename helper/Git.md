@@ -198,4 +198,22 @@
 git remote add origin https://github.com/T-Francis/repoName.git
 git push -u origin master
 ```
+
++ Reset a git from scratch
+
+Delete the .git directory locally
+Re-init the git repostory :
+```bash
+cd /project/directory/
+git init
+git add .
+git commit -m 'Initial commit'
+```
+
+Push to remote server
+You better be the only one using this repo because everything is mess'd up doing this.
+```bash
+git remote add origin origin/url
+git push --force --set-upstream origin master
+```
 ***
