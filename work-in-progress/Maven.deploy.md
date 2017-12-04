@@ -1,9 +1,9 @@
-**Maven**
+**Maven Deploy**
 
-| [Official Site ](https://example.com/) | [config example source](https://source.html) |
+| [Official Site ](https://maven.apache.org/) | [Documentation](http://maven.apache.org/guides/) |
 | :---: | :---: |
 
-![](../logos/logos-v1-128x128.png)
+![](../logos/maven-v1-128x128.png)
 
 
 ### Tomcat plugin Deployement
