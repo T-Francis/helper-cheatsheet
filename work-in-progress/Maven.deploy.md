@@ -6,7 +6,7 @@
 ![](../logos/maven-v1-128x128.png)
 
 
-### Tomcat plugin Deployement
+### Tomcat plugin Deployment
 
 This will deploy the app under tomcat server /webapps with a script that use the tomcat manager
 Note : Tomcat_user.xml example at end of file
@@ -83,7 +83,7 @@ Note : Tomcat_user.xml example at end of file
 </project>
 ```
 
-### Wagon SSH plugin deployement
+### Wagon SSH plugin Deployment
 
 This will deploy the app under tomcat server /webapps AND a distribution repository
 Remember that regarding your configuration you may have to set different credentials one for connect where you wanna upload the distribution repository and one for the tomcat/manager script.
@@ -227,11 +227,11 @@ Remember that regarding your configuration you may have to set different credent
 	<role rolename="admin-gui" />
 	<!-- Will give permission on the Manager Interface (if manager-gui enabledd) -->
 	<role rolename="manager-gui" />	
-	<!-- Will be used on deployement script -->
+	<!-- Will be used on Deployment script -->
 	<role rolename="manager-script"/>
 
 	<!-- In this example we only need the manager script role, manager gui was enabled and we give an access for testing convenience -->
-	<user username="userName" password="s3cr3t" roles="manager-script"/>
+	<user username="userName" password="s3cr3t" roles="manager-gui,manager-script"/>
 
 </tomcat-users>
 ```
