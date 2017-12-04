@@ -3,7 +3,7 @@
 | [Official Site ](https://maven.apache.org/) | [Documentation](http://maven.apache.org/guides/) |
 | :---: | :---: |
 
-![](../logos/maven-v1-128x128.png)
+![](../logos/Apache2-v1-128x128.png)
 
 
 ### Tomcat plugin Deployment
