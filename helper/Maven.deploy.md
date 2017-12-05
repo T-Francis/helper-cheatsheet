@@ -83,6 +83,12 @@ Note : Tomcat_user.xml example at end of file
 </project>
 ```
 
+**Deploy command**
+
+```bash
+mvn tomcat:deploy
+```
+
 ### Wagon SSH plugin Deployment
 
 This will deploy the app under tomcat server /webapps AND a distribution repository
@@ -211,6 +217,12 @@ Remember that regarding your configuration you may have to set different credent
 	</build>
 
 </project>
+```
+
+**Deploy command**
+
+```bash
+mvn deploy
 ```
 
 ***
