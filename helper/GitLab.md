@@ -48,7 +48,7 @@ web_server['external_users'] = ['www-data']
 ```
 you can optionnaly use the command below as it's made in the source guide, but i didn't and it still worked, need to look deeper if it's related with the slowness issue I expercienced with git
 ```bash
-sudo useradd -G gitlab-www ww-data
+sudo useradd -G gitlab-www www-data
 ```
 
 + Create the new virtual host
